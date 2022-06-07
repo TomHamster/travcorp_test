@@ -1,0 +1,22 @@
+.ArticleTeaser {
+    color: black;
+    display: grid;
+}
+
+.tagWrapper {
+    color: grey;
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price {
+    color: grey;
+}
+
+.regularPrice {
+    color: black;
+}

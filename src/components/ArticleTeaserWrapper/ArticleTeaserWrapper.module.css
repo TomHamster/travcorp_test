@@ -1,0 +1,19 @@
+.ArticleTeaserWrapper {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.grid {
+    max-width: 924px;
+    margin: 0 auto;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.teaser {
+    padding: 4px;
+}

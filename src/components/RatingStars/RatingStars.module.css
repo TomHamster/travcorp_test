@@ -1,0 +1,46 @@
+
+
+.RatingStars {
+    display: flex;
+    margin: .5rem 0;
+}
+
+.value{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-left: 0.4rem;
+}
+
+.rating {
+    height: 12px;
+    position: relative;
+    background-color: gray;
+}
+
+.progress {
+    -webkit-appearance: none;
+    -moz-appearence: none;
+    appearance: none;
+    border: none;
+    height: 12px;
+    width: 100%;
+    color: yellow;
+    vertical-align: 0;
+
+}
+
+.progress::-webkit-progress-value {
+    background-color: yellow;
+}
+
+.progress::-moz-progress-bar {
+    background-color: yellow;
+}
+
+.rating svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
